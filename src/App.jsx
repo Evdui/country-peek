@@ -1,9 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from 'react-router-dom'
 
 import Header from './components/Header'
+
 import Home from './pages/Home'
-import NotFound from './pages/NotFound'
 import CountryPage from './pages/CountryPage'
+import Favourites from './pages/Favourites'
+import NotFound from './pages/NotFound'
 
 import './styles/App.css'
 
@@ -14,7 +20,10 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route
+            path="/"
+            element={<Home />}
+          />
 
           <Route
             path="/country/:code"
@@ -23,10 +32,13 @@ function App() {
 
           <Route
             path="/favourites"
-            element={<div>Favourites Page</div>}
+            element={<Favourites />}
           />
 
-          <Route path="*" element={<NotFound />} />
+          <Route
+            path="*"
+            element={<NotFound />}
+          />
         </Routes>
       </main>
     </BrowserRouter>

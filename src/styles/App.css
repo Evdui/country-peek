@@ -315,3 +315,23 @@
     grid-template-columns: 1fr;
   }
 }
+
+.fav-btn {
+  margin-top: 1rem;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  color: #777;
+
+  padding: 0;
+}
+
+.fav-btn--saved {
+  color: crimson;
+}
