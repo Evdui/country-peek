@@ -1,21 +1,33 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # CountryPeek
-CountryPeek — A React and Vite application for searching and exploring country information using the RestCountries API.
->>>>>>> acdf18157581c9ee810dd5c92e2d612a6644a3ea
+
+CountryPeek is a React application for searching and exploring country information using the RestCountries API.
+
+## Live Demo
+
+https://Evdui.github.io/country-peek/
+
+## Features
+
+- Live country search
+- Region filtering
+- Sorting by name and population
+- Country detail pages
+- Dark and light theme
+- Persistent favourites system
+
+## Tech Stack
+
+- React
+- Vite
+- React Router
+- Context API
+- useReducer
+- CSS Variables
+- RestCountries API
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```

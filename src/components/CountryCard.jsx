@@ -74,6 +74,13 @@ function CountryCard({ country }) {
               : ''
           }`}
           onClick={handleFavourite}
+          aria-label={
+            isSaved
+              ? `Remove ${name.common} from favourites`
+              : `Save ${name.common} to favourites`
+          }
+
+          aria-pressed={isSaved}
         >
           {isSaved
             ? '♥ Saved'
